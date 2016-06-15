@@ -31,9 +31,9 @@ http://www.templatemo.com/tm-481-elevate
                 <img src="img/menu-top.jpg" alt="Menu top image" class="img-fluid tm-sidebar-image">
                 <nav class="tm-main-nav">
                     <ul>
-                        <li class="tm-nav-item"><a href="#home" class="tm-nav-item-link">About</a></li>
-                        <li class="tm-nav-item"><a href="#about" class="tm-nav-item-link">Work</a></li>
-                        <li class="tm-nav-item"><a href="#ideas" class="tm-nav-item-link">CV</a></li>
+                        <li class="tm-nav-item"><a href="#home" class="tm-nav-item-link">Geoffrey Iwata - About</a></li>
+                        <li class="tm-nav-item"><a href="#ideas" class="tm-nav-item-link">Experimental Interests</a></li>
+                        <li class="tm-nav-item"><a href="#about" class="tm-nav-item-link">Short CV</a></li>
                         <li class="tm-nav-item"><a href="#contact" class="tm-nav-item-link">Contact</a></li>
                     </ul>
                 </nav>
@@ -41,14 +41,14 @@ http://www.templatemo.com/tm-481-elevate
             
             <div class="tm-main-content">
                 
-                <section id="home" class="tm-content-box tm-banner margin-b-10">
+                <section class="tm-content-box tm-banner margin-b-10">
                     <div class="tm-banner-inner">
                         <h1 class="tm-banner-title">Geoffrey Z. Iwata</h1>
                         <p class="tm-banner-text">Columbia University Ph.D. Candidate in Physics <br>gziwata@gmail.com</p>    
                     </div>                    
                 </section>
 
-                <section>
+                <section id="home">
                     <div class="tm-content-box flex-2-col">
                         
                         <div class="pad flex-item tm-team-description-container">
@@ -58,16 +58,72 @@ http://www.templatemo.com/tm-481-elevate
                             <p class="tm-section-description">I enjoy living in NYC, experiencing the pace, the people, and most importantly, the food. Living here has cemented my firm belief in 
 																the importance of thinking beyond our own self-interests and of looking out for those around us, whether they are old friends or 
 																strangers in passing. While my passion is, unsurprisingly, experimental physics, you may occasionally find me woodworking, playing the 
-																banjo, or perhaps practicing Capoeira. <a href="CV.pdf">CV</a></p>    
+																banjo, climbing rocks or perhaps practising Capoeira. <a href="CV.pdf">CV</a></p>    
                         </div>
                         <div class="flex-item">
                             <img src="img/profile.jpg" alt="">    
-                        </div>                       
+                        </div>                       	
+				</section>
                         
 
-                    </div>
-                    <div id="about" class="tm-content-box">
+                <!-- slider -->
+                <section id="ideas">
+					
+                    <div id="tmCarousel" class="carousel slide tm-content-box" data-ride="carousel">
+					<h2 class="tm-section-title">Experimental Interests</h2>
+                        <ol class="carousel-indicators">
+                            <li data-target="#tmCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#tmCarousel" data-slide-to="1" class=""></li>
+                            <li data-target="#tmCarousel" data-slide-to="2" class=""></li>
+							<li data-target="#tmCarousel" data-slide-to="3" class=""></li>
+                        </ol>
+
+                        <div class="carousel-inner" role="listbox">
                         
+                            <div class="carousel-item active">
+                                <div class="carousel-content">
+                                    <div class="flex-item">
+                                        <h2 class="tm-section-title">Buffer Gas Cooling of Barium monohydride</h2>
+                                        <p class="tm-section-description carousel-description">Suspendisse fermentum auctor turpis quis volutpat. Ut sed nibh non purus porta lacinia. Donec et euismod elit. Aenean vitae quam leo. Pellentesque interdum metus sed massa rutrum.</p>
+                                    </div>
+                                </div>                               
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="carousel-content">
+                                    <div class="flex-item">
+                                        <h2 class="tm-section-title">Subradiance in ultracold <sup>88</sup>Sr<sub>2</sub> molecules</h2>
+                                        <p class="tm-section-description carousel-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel nisi pharetra nibh varius pharetra ac sagittis nisi. Etiam pharetra vestibulum hendrerit. Pellentesque interdum metus sed massa rutrum.</p>
+                                    </div>
+                                </div>                                
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="carousel-content">
+                                    <div class="flex-item">
+                                        <h2 class="tm-section-title">Ultracold Hydrogen production</h2>
+                                        <p class="tm-section-description carousel-description">Donec ex libero, fringilla vitae purus sit amet, rhoncus pharetra lorem. Pellentesque id sem id lacus ultricies vehicula. Aliquam rutrum mi non. Pellentesque interdum metus sed massa rutrum.</p>
+                                    </div>
+                                </div>                                
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="carousel-content">
+                                    <div class="flex-item">
+                                        <h2 class="tm-section-title">Laser cooling molecules</h2>
+                                        <p class="tm-section-description carousel-description">Donec ex libero, fringilla vitae purus sit amet, rhoncus pharetra lorem. Pellentesque id sem id lacus ultricies vehicula. Aliquam rutrum mi non. Pellentesque interdum metus sed massa rutrum.</p>
+                                    </div>
+                                </div>                                
+                            </div>
+
+                        </div>
+                        
+                    </div>                    
+                </section>
+
+				<section>
+                    <div id="about" class="tm-content-box">
+					
                         <ul class="boxes gallery-container">
                             <li class="box box-bg">
                                 <h2 class="tm-section-title tm-section-title-box tm-box-bg-title">Creative</h2>
@@ -103,62 +159,15 @@ http://www.templatemo.com/tm-481-elevate
                             </li>
                         </ul>
 
-                    </div>
-                    
-                </section>
-
-                <!-- slider -->
-                <section id="ideas">
-                    <div id="tmCarousel" class="carousel slide tm-content-box" data-ride="carousel">
-
-                        <ol class="carousel-indicators">
-                            <li data-target="#tmCarousel" data-slide-to="0" class="active"></li>
-                            <li data-target="#tmCarousel" data-slide-to="1" class=""></li>
-                            <li data-target="#tmCarousel" data-slide-to="2" class=""></li>
-                        </ol>
-
-                        <div class="carousel-inner" role="listbox">
-                        
-                            <div class="carousel-item active">
-                                <div class="carousel-content">
-                                    <div class="flex-item">
-                                        <h2 class="tm-section-title">Our Ideas</h2>
-                                        <p class="tm-section-description carousel-description">Suspendisse fermentum auctor turpis quis volutpat. Ut sed nibh non purus porta lacinia. Donec et euismod elit. Aenean vitae quam leo. Pellentesque interdum metus sed massa rutrum.</p>
-                                    </div>
-                                </div>                               
-                            </div>
-
-                            <div class="carousel-item">
-                                <div class="carousel-content">
-                                    <div class="flex-item">
-                                        <h2 class="tm-section-title">Our Clients</h2>
-                                        <p class="tm-section-description carousel-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel nisi pharetra nibh varius pharetra ac sagittis nisi. Etiam pharetra vestibulum hendrerit. Pellentesque interdum metus sed massa rutrum.</p>
-                                    </div>
-                                </div>                                
-                            </div>
-
-                            <div class="carousel-item">
-                                <div class="carousel-content">
-                                    <div class="flex-item">
-                                        <h2 class="tm-section-title">Our Projects</h2>
-                                        <p class="tm-section-description carousel-description">Donec ex libero, fringilla vitae purus sit amet, rhoncus pharetra lorem. Pellentesque id sem id lacus ultricies vehicula. Aliquam rutrum mi non. Pellentesque interdum metus sed massa rutrum.</p>
-                                    </div>
-                                </div>                                
-                            </div>
-
-                        </div>
-                        
-                    </div>                    
-                </section>
-
+                    </div>  
+                </section>				
+				
                 <section class="tm-content-box">
-                    <img src="img/contact.jpg" alt="Contact image" class="img-fluid">
-
                     <div id="contact" class="pad">
                         <h2 class="tm-section-title">Contact Me</h2>
-						<p class="tm-section-description">email:<br> gziwata@gmail.com <br><br>mail: <br>538 W. 120th St. <br> 626 Pupin Hall <br> New York, NY 10027 <br><br> Or use this form:</p>     
+						<p class="tm-section-description">email:<br> gziwata@gmail.com <br><br>mail: <br>538 W. 120th St. <br> 626 Pupin Hall <br> New York, NY 10027</p>     
                     </div>
-                    
+                    <img src="img/contact.jpg" alt="Contact image" class="img-fluid">                    
                 </section>  
 
                 <footer class="tm-footer">
