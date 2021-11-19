@@ -77,6 +77,12 @@ hr {
 	margin: 0px auto;
 }
 
+.containerw {
+	width: 1300px;
+	margin: 0px auto;
+}
+
+
 .clearfix {
 	clear: both;
 }
@@ -174,12 +180,19 @@ hr {
 	text-shadow: 1px 1px 0px #FFFFFF;
 }
 
+#content h2 {
+	padding: 0px 0px 20px 0px;
+	letter-spacing: -1px;
+	font-size: 30px;
+	color: #3B3B3B;
+}
+
 #content2 {
 	float: center;
 	text-shadow: 1px 1px 0px #FFFFFF;
 }
 
-#content h2 {
+#content2 h2 {
 	padding: 0px 0px 20px 0px;
 	letter-spacing: -1px;
 	font-size: 30px;
